@@ -1,0 +1,16 @@
+directionstring = input(print("Please choose your option from the list below: "
+                         "1.read\t2.sleep\t3.eat\t4.watch youtube\t5.do homework]"))
+print(directionstring)
+
+if directionstring.casefold() == '1':
+    print("Time to hit the books!") is 
+elif directionstring.casefold() == '2':
+    print("Good night!!")
+elif directionstring.casefold() == '3':
+    print("Enjoy your feast!")
+elif directionstring.casefold() == '4':
+    print("Sounds fun")
+elif directionstring.casefold() == '5':
+    print("You're so responsible")
+else:
+    print("invalid answer")
